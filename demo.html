@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>📝 My Smart Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <center>
+
+        <h1>📝 My Smart Task Manager 🚀</h1>
+
+        <hr>
+
+        <input type="text" id="taskInput" placeholder="Enter Task">
+
+        <input type="date" id="taskDate">
+
+        <select id="priority">
+            <option>🔴 High</option>
+            <option>🟡 Medium</option>
+            <option>🟢 Low</option>
+        </select>
+
+        <select id="category">
+            <option>📚 Study</option>
+            <option>🏠 Personal</option>
+            <option>💼 Work</option>
+        </select>
+
+        <button onclick="addTask()">➕ Add Task</button>
+
+        <hr>
+
+        <h3>Total Tasks : <span id="count">0</span></h3>
+
+        <ul id="taskList"></ul>
+
+    </center>
+
+    <script src="demo.js"></script>
+
+</body>
+
+</html>
+
